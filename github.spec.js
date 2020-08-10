@@ -2,7 +2,7 @@ context('Cypress github login',() => {
     
 
     it('signup to signout',() =>{
-        cy.screenshot()
+      cy.screenshot()
       cy.visit('https://github.com/')
       cy.contains('Sign up').click()
       cy.go('back')
